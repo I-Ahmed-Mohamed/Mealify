@@ -1,0 +1,156 @@
+@media all and (max-width: 600px),
+all and (min-width: 768px) {
+  .list-icon{
+    display: none !important;
+  }  
+}
+@media all and (max-width: 600px),
+all and (max-width: 768px) {
+
+    /*********************nav*********************************/
+    nav {
+        position: relative
+    }
+
+    nav .navs ul {
+        flex-direction: column;
+
+    }
+    .list-icon{
+        display: flex !important;
+      }  
+    nav .navs ul li {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    nav .logo {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        position: absolute;
+    }
+
+    nav .navs {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 20% !important;
+
+    }
+
+
+
+    nav .icon {
+        width: 30% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .logo {
+        width: 20% !important;
+    }
+    nav .navs ul {
+        display: none !important;
+
+    }
+    nav .container .navs .list-icon:hover+ul {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 95%;
+        background-color: #333333;
+    }
+
+    /**********************home*******************/
+    .home {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .home .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .container .caption {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 200px;
+    }
+
+    .home .container .plat {
+        width: 100%;
+    }
+
+    .Chefs .container .chef-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .Chefs .container .chef-cards .chef-card {
+        width: 100%;
+    }
+
+    /******************gallery************/
+    .Gallery .container .photos {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        height: auto;
+    }
+
+
+    .Gallery .photos picture {
+        width: 100%;
+    }
+
+    .Gallery {
+        padding-bottom: 50px;
+    }
+
+    /******************contact******************/
+    .contact .container .frame,
+    .add,
+    .Call,
+    .hour,
+    .email-contact {
+        width: 100%;
+    }
+
+    .contact .container .email-contact {
+        width: 100%;
+    }
+
+    .contact form .text,
+    .email,.subject,.message {
+        width: 90%;
+    }
+
+    /****************footer***************/
+    footer {
+        height: auto;
+        padding-bottom: 150px;
+
+    }
+
+    footer .about {
+        width: 100%;
+    }
+
+    footer .subscription,
+    .contact-details {
+        width: 100%;
+    }
+}
